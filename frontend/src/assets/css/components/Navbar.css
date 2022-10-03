@@ -1,0 +1,89 @@
+.navbar-Ecom {
+  padding: 20px 50px;
+  /* box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.1); */
+}
+
+.utility-nav {
+  background: #e4e4e4;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-Ecom .box-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-Ecom .box-cart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-Ecom .box-cart a {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.isActiveNav {
+  color: black !important;
+}
+
+.form-control {
+  border-radius: 7px;
+  border: 1.5px solid #e3e6ed;
+}
+
+input.form-control:focus {
+  box-shadow: none;
+  border: 1.5px solid #e3e6ed;
+  background-color: #f7f8fd;
+  letter-spacing: 1px;
+}
+
+/* profile */
+
+/* .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #dedede;
+  background-color: #fff;
+} */
+
+/* END profile */
+
+/*  Navbar menu item */
+
+.navbar-menu {
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-menu .list-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-menu .list-menu a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+  padding: 5px 16px;
+}
+
+.navbar-menu .list-menu a:hover {
+  color: #046241;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar-menu .list-menu .active {
+  border-bottom: 4px solid #173d35;
+}
+
+/* END Navbar menu item */

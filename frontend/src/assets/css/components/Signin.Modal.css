@@ -1,0 +1,29 @@
+.Modal__signin {
+  border-radius: 90px !important;
+}
+
+.Modal__signin .body__signin {
+  padding: 30px 50px;
+}
+
+.Modal__signin .title {
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+}
+
+.Modal__signin input[type="text"],
+.Modal__signin input[type="password"] {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 2px 0 rgb(0 0 0 / 2%);
+}
+
+/* .Modal__signin input[type="text"]:focus,
+.Modal__signin input[type="password"]:focus {
+  outline: none;
+  box-shadow: inset 0 2px 0 rgb(0 0 0 / 2%);
+} */

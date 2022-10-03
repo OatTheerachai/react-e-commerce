@@ -1,0 +1,24 @@
+.Product {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+.Product h3 {
+  padding-top: 1rem;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+}
+
+.best-seller {
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+/* .best-seller > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+} */
+
+
+
